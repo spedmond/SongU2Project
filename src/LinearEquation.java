@@ -34,6 +34,9 @@ public class LinearEquation {
         else if (changeInX==-1) {
             return "-" + changeInY;
         }
+        else if ((changeInX < 0 && changeInY > 0) || (changeInX > 0 && changeInY < 0)) {
+            return "-" + changeInY + "/" + changeInX;
+        }
         else {
             return changeInY + "/" + changeInX;
         }
