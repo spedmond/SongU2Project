@@ -31,7 +31,9 @@ public class LinearEquationRunner {
         System.out.println("----- Line info -----");
         System.out.println(equation.lineInfo());
         System.out.println();
-        double testX = 4;
+
+        System.out.println("Enter a value for x: ");
+        double testX = input.nextDouble();
         System.out.println("Coordinate for x: " + equation.coordinateForX(testX));
 
     }
