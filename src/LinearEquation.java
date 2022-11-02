@@ -116,7 +116,7 @@ public class LinearEquation {
       equation(), slope(), yIntercept(), distance().
       */
     public String lineInfo() {
-        return "Original points: " + "(" + x1 + "," + y1 + ") " + "and" + " (" + x2 + "," + y2 + ")" + "\n" +
+        return "Original points: " + "(" + x1 + ", " + y1 + ") " + "and" + " (" + x2 + ", " + y2 + ")" + "\n" +
                 "Equation of the line: " + equation() + "\n" +
                 "Slope: " + slope() + "\n" +
                 "Y-intercept: " + yIntercept() + "\n" +

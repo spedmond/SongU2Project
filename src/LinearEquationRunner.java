@@ -3,10 +3,10 @@ public class LinearEquationRunner {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter your first coordinate: ");
+        System.out.print("Please enter your first coordinate: ");
         String p1 = input.nextLine();
 
-        System.out.println("Please enter your second coordinate: ");
+        System.out.print("Please enter your second coordinate: ");
         String p2 = input.nextLine();
 
         int x1 = Integer.parseInt(p1.substring(1,p1.indexOf(",")));
@@ -32,7 +32,7 @@ public class LinearEquationRunner {
         System.out.println(equation.lineInfo());
         System.out.println();
 
-        System.out.println("Enter a value for x: ");
+        System.out.print("Enter a value for x: ");
         double testX = input.nextDouble();
         System.out.println("Coordinate for x: " + equation.coordinateForX(testX));
 
